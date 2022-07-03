@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+body{
+    font-family: 'Raleway' ,sans-serif;
+    background: rgb(235, 218, 222);
+    color: #fff;
+    line-height: 2em;
+
+}
+.container {
+    margin: 120px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+
+.head{
+    border: 0.1px grey solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(95, 148, 218);
+    text-align: center;
+    padding: 10px
+}
+
+
+#form{
+    border: 2px grey solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(240, 235, 235);
+    color: black;
+    padding: 20px;
+}
+
+.amount label{
+    display: block;
+    color:#666;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.amount input{
+    width: 100%;
+    padding: 10px;
+    border : #ddd 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.amount select{
+    font-size: 20px;
+    width :100%
+}
+
+#services{
+    width: 100%;
+    padding:10px;
+    font-size: 15px;
+    color:rgb(83, 81, 81);
+    border-radius: 5px;
+}
+
+.amountbtn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#btn{
+    font-size:18px ;
+    background: red;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+    border:none
+}
